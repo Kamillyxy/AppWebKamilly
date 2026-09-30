@@ -7,8 +7,12 @@
     <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
   </PropertyGroup>
 
+	<ItemGroup>
+	<PackageReference Include="MySql.Data" Version="26.7.0" />
+	</ItemGroup>
+
   <ItemGroup>
-    <PackageReference Include="MySql.Data" Version="26.7.0" />
+    <Folder Include="Configs\" />
   </ItemGroup>
 
 </Project>
